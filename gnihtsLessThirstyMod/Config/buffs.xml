@@ -1,0 +1,14 @@
+<configs>
+
+  
+  <setattribute xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffStatusThirsty01']/requirement[@name='StatComparePercCurrentToMax']" name="value">0.34</setattribute>
+
+  <setattribute xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@buff='buffStatusThirsty02']/requirement[@name='StatComparePercCurrentToMax']" name="value">0.26</setattribute>
+
+  <setattribute xpath="/buffs/buff[@name='buffStatusThirsty01']/effect_group/triggered_effect/requirement[@name='StatComparePercCurrentToMax']" name="value">0.38</setattribute>
+  <setattribute xpath="/buffs/buff[@name='buffStatusThirsty02']/effect_group/triggered_effect/requirement[@name='StatComparePercCurrentToMax']" name="value">0.26</setattribute>
+  <setattribute xpath="/buffs/buff[@name='buffStatusThirsty02']/effect_group/requirement[@name='StatComparePercCurrentToMax']" name="value">0.29</setattribute>
+
+</configs>
+
+

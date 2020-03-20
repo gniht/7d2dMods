@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsLessThirstyMod"/>
+
+    <Description value="This modlet reduces the threshold values for applying the thirsty warnings and debuffs. At the new levels, transition from the first to second stage of dehydration may seem a bit fast, but in the later game it should feel a lot more reasonable."/>
+
+    <Author value="gniht"/>
+
+    <Version value="1.0.0"/>
+
+  </ModInfo>
+
+</xml>
