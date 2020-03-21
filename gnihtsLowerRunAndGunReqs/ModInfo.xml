@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsLowerRunAndGunReqs"/>
+
+    <Description value="Although I understand the concept of what TFP were going for by providing a perk to improve mobile reloading for the more agile character archtype, I feel the extreme movement slow imposed on reload is the wrong way to represent what they wanted.  The purpose of this mod is to preserve the concept I think they wanted while increasing availability of the perk to other builds who don't wish agility to be their primary stat.  The new progression is very much along the same lines of thought as lucky looter, salvage operations, miner 69'r, motherlode, etc..."/>
+
+    <Author value="gniht"/>
+
+    <Version value="1.0.0"/>
+
+  </ModInfo>
+
+</xml>
