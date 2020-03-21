@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsBlocksGoneWild"/>
+
+    <Description value="This mod removes the rotation restrictions on some blocks, allowing you to flip them around however you like." />
+
+    <Author value="gniht"/>
+
+    <Version value="1.0.0"/>
+
+  </ModInfo>
+
+</xml>
