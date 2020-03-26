@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsMoreWoodFrameShapes"/>
+
+    <Description value="Adding additional shapes for the wood frame: pillar100, pillar50, short and tall pyramid, wedge tip, pole, center pole, pillar100 cap (or hemisphere), and plate.  In version 3.3 I added semi-proper icons for the shape variant menu and hopefully all upgrade paths should work properly.  Happy building!"/>
+
+    <Author value="gniht"/>
+
+    <Version value="3.3.0"/>
+
+  </ModInfo>
+
+</xml>

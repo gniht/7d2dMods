@@ -1,0 +1,241 @@
+
+<configs>
+
+  <set xpath="/blocks/block[@name='woodFrameBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">woodFrameBlock,woodFrameRamp,woodFrameArch,woodFrameCNRFull,woodFrameCNRInside,woodFrameCNRRampFiller,woodFrameGableInvertedHalf,woodFrameGableInvertedQuarter,woodFrameGableInvertedSteep,woodFrameGableQuarter,woodFrameHalf,woodFrameQuarterCNR,woodFrameQuarterCNR3Way,woodFrameQuarterSCtr,woodFrameQuarterTeeSCtr,woodFrameStairs25CornerCNR,woodFrameWedge,woodFrameWedgeCNRInsideBottom,woodFrameWedgeCNRInsideSteepBase,woodFrameWedgeCNRInsideSteepTop,woodFrameWedgeCNRInsideTop,woodFrameWedgeCNRSteepBase,woodFrameWedgeCNRSteepTop,woodFrameWedgeIncline,woodFrameWedgeStairs,woodFrameWedgeTipCNRFullBottom,woodFrameWedgeTipCNRFullTop,woodFrameWedgeTipStairs,woodFrameWedgeTip,woodFramePillar100,woodFramePillar50,woodFramePole,woodFrameCTRPole,woodFramePlate,woodFramePyramidShort,woodFramePyramidTall,woodFramePillar100Cap</set>
+
+	<append xpath="/blocks">
+
+		<block name="woodFrameWedgeTip">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFrameWedgeTipIcon"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="wedge60_tip"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0280"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodWedgeTip"/> </property>
+		</block>
+		
+		<block name="woodFramePillar100">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFramePillar100v2"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Pole1m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0280"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodPillar100"/> </property>
+		</block>
+				
+		<block name="woodFramePillar50">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFramePillar50v2"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Pole0.5m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0740"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodPillar50v2"/> </property>
+		</block>
+						
+		<block name="woodPillar50v2">
+			<property name="Extends" value="woodMaster"/>
+			<property name="CustomIcon" value="woodPillar50"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Pole0.5m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0740"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodPillar50"/> </property>
+		</block>
+								
+		<block name="rWoodPillar50">
+			<property name="Extends" value="rWoodMaster"/>
+			<property name="CustomIcon" value="woodPillar50"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Pole0.5m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0740"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePillar50"/> </property>
+		</block>
+					
+		<block name="woodFramePole">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFramePole"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pole_square"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0780"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodPole"/> </property>
+		</block>
+												
+		<block name="woodFrameCTRPole">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFrameCTRPole"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pole_square_centered"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0790"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodCTRpole"/> </property>
+		</block>
+														
+		<block name="woodFramePlate">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFramePlate"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Plate"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0150"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodPlate"/> </property>
+		</block>
+																
+		<block name="woodFramePyramidShort">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFramePyramidShort"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0260"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodPyramidShort"/> </property>
+		</block>
+																		
+		<block name="woodPyramidShort">
+			<property name="Extends" value="woodMaster"/>
+			<property name="CustomIcon" value="woodPyramid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0260"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodPyramidShort"/> </property>
+		</block>
+																				
+		<block name="rWoodPyramidShort">
+			<property name="Extends" value="rWoodMaster"/>
+			<property name="CustomIcon" value="woodPyramid"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0260"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePyramid"/> </property>
+		</block>
+																		
+		<block name="woodFramePyramidTall">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFramePyramidTall"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid_1m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0430"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodPyramidTall"/> </property>
+		</block>
+																				
+		<block name="woodPyramidTall">
+			<property name="Extends" value="woodMaster"/>
+			<property name="CustomIcon" value="woodPyramid1m"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid_1m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0430"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodPyramidTall"/> </property>
+		</block>
+																						
+		<block name="rWoodPyramidTall">
+			<property name="Extends" value="rWoodMaster"/>
+			<property name="CustomIcon" value="woodPyramid1m"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid_1m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0430"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePyramidTall"/> </property>
+		</block>
+																								
+		<block name="cobblestonePyramidTall">
+			<property name="Extends" value="cobblestoneMaster"/>
+			<property name="CustomIcon" value="woodPyramid1m"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid_1m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0430"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="concretePyramidTall"/> </property>
+		</block>
+																										
+		<block name="concretePyramidTall">
+			<property name="Extends" value="concreteMaster"/>
+			<property name="CustomIcon" value="woodPyramid1m"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid_1m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0430"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="pouredRConcretePyramidTall"/> </property>
+		</block>
+				
+		<block name="pouredRConcretePyramidTall">
+			<property name="Extends" value="pouredRConcreteMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="woodPyramid1m"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid_1m"/>
+			<property name="SortOrder2" value="0430"/> <!-- SortShape -->
+			<property name="UpgradeRated.ToBlock" value="rConcretePyramidTall"/>
+		</block>
+																												
+		<block name="rConcretePyramidTall">
+			<property name="Extends" value="rConcreteMaster"/>
+			<property name="CustomIcon" value="woodPyramid1m"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid_1m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0430"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="steelPyramidTall"/> </property>			
+		</block>
+																														
+		<block name="steelPyramidTall">
+			<property name="Extends" value="steelMaster"/>
+			<property name="CustomIcon" value="woodPyramid1m"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="pyramid_1m"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0430"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="steelPyramidTall"/> </property>
+			<property name="DowngradeBlock" value="rConcretePyramidTall"/>
+		</block>
+																				
+		<block name="woodFramePillar100Cap">
+			<property name="Extends" value="woodFrameMaster"/>
+			<property name="CustomIcon" value="woodFramePillar100CapIcon"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Pole1m_cap"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0737"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="woodPillar100Cap"/> </property>
+		</block>
+																						
+		<block name="woodPillar100Cap">
+			<property name="Extends" value="woodMaster"/>
+			<property name="CustomIcon" value="woodFramePillar100Cap"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Pole1m_cap"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0737"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodPillar100Cap"/> </property>
+		</block>
+																								
+		<block name="rWoodPillar100Cap">
+			<property name="Extends" value="rWoodMaster"/>
+			<property name="CustomIcon" value="woodFramePillar100Cap"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Pole1m_cap"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0737"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestonePillar100Cap"/> </property>
+		</block>
+																										
+		<block name="cobblestonePillar100Cap">
+			<property name="Extends" value="cobblestoneMaster"/>
+			<property name="CustomIcon" value="woodFramePillar100Cap"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Pole1m_cap"/> <!-- needs cutout --> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="SortOrder2" value="0737"/> <!-- SortShape -->
+			<property class="UpgradeBlock"> <property name="ToBlock" value="concretePillar100Cap"/> </property>
+		</block>
+
+	</append>
+
+</configs>
