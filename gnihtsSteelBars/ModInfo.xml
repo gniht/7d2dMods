@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsSteelBars"/>
+
+    <Description value="Upgrade iron bars to bars of steel"/>
+
+    <Author value="gniht"/>
+
+    <Version value="3.3.0"/>
+
+  </ModInfo>
+
+</xml>
