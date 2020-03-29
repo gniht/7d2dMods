@@ -1,0 +1,12 @@
+<configs>
+  <append xpath="/progression/perks/perk[@name='perkSkullCrusher']">
+  	<effect_group>
+			<requirement name="ItemHasTags" tags="perkSkullCrusher"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" level="1,5" value="0.04,0.20"/>
+    </effect_group>
+  </append> 
+</configs>
+
+
+      
+

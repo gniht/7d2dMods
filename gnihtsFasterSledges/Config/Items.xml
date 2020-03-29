@@ -1,0 +1,6 @@
+
+<configs>
+  <setattribute xpath="/items/item[@name='meleeToolSledgehammerIron']/effect_group[@name='meleeToolSledgehammerIron']/passive_effect[@name='AttacksPerMinute']" name="value">36</setattribute>
+
+  <setattribute xpath="/items/item[@name='meleeToolSledgehammerSteel']/effect_group[@name='meleeToolSledgehammerSteel']/passive_effect[@name='AttacksPerMinute']" name="value">36</setattribute>
+</configs>

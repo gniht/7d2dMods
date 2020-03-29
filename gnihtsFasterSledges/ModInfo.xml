@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsFasterSledges"/>
+
+    <Description value="This mod increases base attack speed of the iron and steel sledgehammers slightly (from 34 to 36)and then adds a speed boost to the skull crusher perk which further scales attacks per minute by 4% per rank." />
+
+    <Author value="gniht"/>
+
+    <Version value="1.0.0"/>
+
+  </ModInfo>
+
+</xml>
