@@ -2,6 +2,4 @@
 
   <append xpath="/blocks/block[@name='glassBulletproofBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,glassBulletproofRampSheet</append>
   
-  <set xpath="/materials/material[@id='MglassBulletproof']/property[@name='stability_glue']/@value">180</set>
-
 </configs>

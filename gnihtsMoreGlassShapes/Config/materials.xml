@@ -1,0 +1,5 @@
+  <configs>
+    
+    <set xpath="/materials/material[@id='MglassBulletproof']/property[@name='stability_glue']/@value">180</set>
+
+  </configs>
