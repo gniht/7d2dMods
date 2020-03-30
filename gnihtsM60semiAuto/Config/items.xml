@@ -1,0 +1,4 @@
+<configs>
+  <append xpath="items/item[@name='gunM60']/property[@name='Tags']/@value">,firingMode</append>
+</configs>
+

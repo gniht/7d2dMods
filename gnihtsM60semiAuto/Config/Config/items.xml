@@ -1,5 +1,0 @@
-<configs>
-  <set xpath="items/item[@name='gunM60']/property[@name='Tags']/@value">"weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"</set>
-</configs>
-
-firingMode
