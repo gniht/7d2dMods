@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsM60semiAuto"/>
+
+    <Description value="Allow semi-auto mod to be used on the M60"/>
+
+    <Author value="gniht"/>
+
+    <Version value="1.0.0"/>
+
+  </ModInfo>
+
+</xml>
