@@ -1,0 +1,3 @@
+<configs>
+  <append xpath="/blocks/block[@name='glassBulletproofBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,glassBulletproofRampSheet</append>
+</configs>

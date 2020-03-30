@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsMoreGlassShapes"/>
+
+    <Description value="Adding some shapes to the glass variant menu for bulletproof glass"/>
+
+    <Author value="gniht"/>
+
+    <Version value="1.0.0"/>
+
+  </ModInfo>
+
+</xml>
