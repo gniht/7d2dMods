@@ -1,0 +1,133 @@
+<configs>
+
+  <append xpath="/items/item[@name='meleeHandZombie01']/effect_group[@name='meleeHandZombie01']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+  
+  <append xpath="/items/item[@name='meleeHandZombieFeral']/effect_group[@name='meleeHandZombieFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+  
+  <append xpath="/items/item[@name='meleeHandZombie02']/effect_group[@name='meleeHandZombie02']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombie02Feral']/effect_group[@name='meleeHandZombie02Feral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieBurning']/effect_group[@name='meleeHandZombieBurning']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieBurningFeral']/effect_group[@name='meleeHandZombieBurningFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieBurningCrawler']/effect_group[@name='meleeHandZombieBurningCrawler']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieCop']/effect_group[@name='meleeHandZombieCop']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieCopFeral']/effect_group[@name='meleeHandZombieCopFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieCopRadiated']/effect_group[@name='meleeHandZombieCopRadiated']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandAnimalZombieDog']/effect_group[@name='meleeHandAnimalZombieDog']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieStrong']/effect_group[@name='meleeHandZombieStrong']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieDemolition']/effect_group[@name='meleeHandZombieStrong']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieStrongFeral']/effect_group[@name='meleeHandZombieStrongFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandAnimalZombieBear']/effect_group[@name='meleeHandAnimalZombieBear']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandAnimalZombieBearFeral']/effect_group[@name='meleeHandAnimalZombieBearFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieHazMat']/effect_group[@name='meleeHandZombieHazMat']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieHazMatFeral']/effect_group[@name='meleeHandZombieHazMatFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieWorker']/effect_group[@name='meleeHandZombieWorker']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieWorkerFeral']/effect_group[@name='meleeHandZombieWorkerFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieFootballPlayer']/effect_group[@name='meleeHandZombieFootballPlayer']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieFootballPlayerFeral']/effect_group[@name='meleeHandZombieFootballPlayerFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieStripper']/effect_group[@name='meleeHandZombieStripper']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandZombieStripperFeral']/effect_group[@name='meleeHandZombieStripperFeral']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+  
+  <append xpath="/items/item[@name='meleeHandZombieBehemoth']/effect_group[@name='meleeHandZombieBehemoth']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+    
+  <append xpath="/items/item[@name='meleeHandAnimalZombieVulture']/effect_group[@name='meleeHandAnimalZombieVulture']">  
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="stone"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+  </append>
+  
+</configs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsZombieBlockDamageMod"/>
+
+    <Description value="This mod adjusts the zombie damage against stone and metal materials."/>
+
+    <Author value="gniht"/>
+
+    <Version value="1.1.0"/>
+
+  </ModInfo>
+
+</xml>
