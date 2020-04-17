@@ -14,7 +14,7 @@
       <property name="SoundJammed" value="weapon_jam"/>
       <property name="CrosshairUpAfterShot" value="true"/>
       <property name="Stacknumber" value="1"/>
-      <property name="UnlockedBy" value="perkAdvancedEngineering,gunToolNailgunSchematic"/>
+      <!-- <property name="UnlockedBy" value="perkAdvancedEngineering,gunToolNailgunSchematic"/> -->
       <property name="ShowQuality" value="true"/>
       <property class="Action0">
         <property name="Class" value="Launcher"/>
