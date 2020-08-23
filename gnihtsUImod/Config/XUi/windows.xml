@@ -1,19 +1,27 @@
-<window name="windowCompass" style="compass.window" controller="CompassWindow">
-		<sprite style="compass.window.background.border"/>
-		<sprite style="compass.window.background"/>
+<configs>
 
-		<sprite style="compass.window.compass.background">
+  <remove xpath="/windows/window[@name='windowCompass']"/>
+
+	<append xpath="/windows" >
+		<window name="windowCompass" style="compass.window" controller="CompassWindow">
+				<sprite style="compass.window.background.border"/>
+				<sprite style="compass.window.background"/>
+
+				<sprite style="compass.window.compass.background">
 
 
-		</sprite>
-		<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
+				</sprite>
+				<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
 
-		</texture>
+				</texture>
 
 
-		<rect name="content"  controller="MapStats">
-			<sprite pos="240,-60" sprite="" color="255,255,255,255" globalopacitymod="1.8">
-				<label depth="2" width="380" height="32" text="{daytitle}: [{daycolor|always}]{day|always}[-]  {timetitle}: {time|always}  {playercoretemp}[-]  {mapelevation} M[-]" font_size="32" pivot="center" effect="outline" upper_case="true" justify="center"/>			
-			</sprite>				
-		</rect>
-	</window>
+				<rect name="content"  controller="MapStats">
+					<sprite pos="240,-60" sprite="" color="255,255,255,255" globalopacitymod="1.8">
+						<label depth="2" width="380" height="32" text="{daytitle}: [{daycolor|always}]{day|always}[-]  {timetitle}: {time|always}  {playercoretemp}[-]  {mapelevation} M[-]" font_size="32" pivot="center" effect="outline" upper_case="true" justify="center"/>			
+					</sprite>				
+				</rect>
+			</window>
+	</append>
+</configs>
+
