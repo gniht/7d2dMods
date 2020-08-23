@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+  <ModInfo>
+
+    <Name value="gnihtsUImod"/>
+
+    <Description value="adds temperature and elevation info to the UI beneath the player's compass"/>
+
+    <Author value="gniht"/>
+
+    <Version value="1.0.0"/>
+
+  </ModInfo>
+
+</xml>
