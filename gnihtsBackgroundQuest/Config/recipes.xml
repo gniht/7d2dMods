@@ -1,0 +1,38 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="Herbalist" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>
+
+    <recipe name="Bicycle Mechanic" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>
+       
+    <recipe name="Science/Engineering Student" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>
+           
+    <recipe name="Prospector" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>
+               
+    <recipe name="Textile Worker" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>
+                   
+    <recipe name="Law Enforcement" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>
+                   
+    <recipe name="Paramedic" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>   
+    <recipe name="Army Ranger" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>
+       
+    <recipe name="Navy Seal" count="1">
+      <ingredient name="noteDuke01" count="1"/>    
+    </recipe>   
+  </append>
+</configs>

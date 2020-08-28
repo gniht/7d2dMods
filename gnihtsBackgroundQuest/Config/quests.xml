@@ -1,0 +1,178 @@
+<configs>
+  <!-- backgrounds -->
+
+  <append xpath="/quests">
+    <quest id="quest_background_herbalist">
+      <property name="name_key" value="quest_background_herbalist"/>
+      <property name="subtitle_key" value="background_herbalist_subtitle"/>
+      <!-- <property name="description" value="Before the apocalypse, you studied natural healing through the use of medicinal herbs."/> -->
+      <property name="description_key" value="background_herbalist_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false" />
+      <property name="offer_key" value="background_herbalist_offer"/>
+      <action type="TrackQuest"/>      
+      <reward type="Item" id="drinkJarGoldenRodTeaSchematic" value="1"/>
+      <reward type="Item" id="drugHerbalAntibioticsSchematic" value="1"/>
+      <reward type="Item" id="drugHerbalAntibiotics" value="2"/>
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+   
+    <quest id="quest_background_bicycleMechanic">
+      <property name="name_key" value="quest_background_bicycleMechanic"/>
+      <property name="subtitle_key" value="background_bicycleMechanic_subtitle" />
+      <property name="description_key" value="background_bicycleMechanic_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false" />
+      <property name="offer_key" value="background_bicycleMechanic_offer"/>
+      <action type="TrackQuest"/>
+      <reward type="Item" id="vehicleBicycleHandlebarsSchematic" value="1"/>
+      <reward type="Item" id="vehicleBicycleChassisSchematic" value="1"/>
+      <reward type="Item" id="meleeToolWrench" value="2"/>
+      <reward type="Item" id="resourceRepairKit" value="1"/>     
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+  
+    <quest id="quest_background_scienceAndEngineering">
+      <property name="name_key" value="quest_background_scienceAndEngineering" />
+      <property name="subtitle_key" value="background_scienceAndEngineering_subtitle" />
+      <property name="description_key" value="background_scienceAndEngineering_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false" />
+      <property name="offer_key" value="background_scienceAndEngineering_offer"/>
+      <action type="TrackQuest"/>
+      <reward type="Item" id="apparelNerdGlasses" value="1"/>
+      <reward type="Item" id="toolBeaker" value="1"/>
+      <reward type="Item" id="resourceRepairKit" value="2"/>      
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+      
+    <quest id="quest_background_prospector">
+      <property name="name_key" value="quest_background_prospector" />
+      <property name="subtitle_key" value="background_prospector_subtitle" />
+      <property name="description_key" value="background_prospector_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false"/>
+      <property name="offer_key" value="background_prospector_offer"/>
+      <action type="TrackQuest"/>
+      <reward type="Item" id="bookArtOfMiningAvalanche" value="1"/>
+      <reward type="Item" id="bookArtOfMiningCoffee" value="1"/>
+      <reward type="Item" id="meleeToolPickaxeIron" value="2"/>      
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+          
+    <quest id="quest_background_textileWorker">
+      <property name="name_key" value="quest_background_textileWorker" />
+      <property name="subtitle_key" value="background_textileWorker_description" />
+      <property name="description_key" value="background_textileWorker_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false"/>
+      <property name="offer_key" value="background_textileWorker_offer"/>
+      <action type="TrackQuest"/>
+      <reward type="Item" id="bookNeedleAndThreadPockets" value="1"/>
+      <reward type="Item" id="bookWasteTreasuresCloth" value="1"/>
+      <reward type="Item" id="resourceSewingKit" value="4"/>
+      <reward type="Item" id="resourceDuctTape" value="2"/>      
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+              
+    <quest id="quest_background_lawEnforcement">
+      <property name="name_key" value="quest_background_lawEnforcement" />
+      <property name="subtitle_key" value="background_lawEnforcement_subtitle" />
+      <property name="description_key" value="background_lawEnforcement_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false"/>
+      <property name="offer_key" value="background_lawEnforcement_offer"/>
+      <action type="TrackQuest"/>      
+      <reward type="Item" id="bookPistolPeteDamage" value="1"/>
+      <reward type="Item" id="bookPistolPeteSteadyHand" value="1"/>
+      <reward type="Item" id="gunPistol" value="2"/>
+      <reward type="Item" id="ammo9mmBulletBall" value="30"/>      
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+                  
+    <quest id="quest_background_paramedic">
+      <property name="name_key" value="quest_background_paramedic"/>
+      <property name="subtitle_key" value="background_paramedic_subtitle"/>
+      <property name="description_key" value="background_paramedic_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false"/>
+      <property name="offer_key" value="background_paramedic_offer"/>
+      <action type="TrackQuest"/>      
+      <reward type="Item" id="bookLuckyLooterMedical" value="1"/>
+      <reward type="Item" id="medicalFirstAidBandageSchematic" value="1"/>
+      <reward type="Item" id="medicalFirstAidBandage" value="2"/>
+      <reward type="Item" id="medicalPlasterCast" value="1"/>      
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+                      
+    <quest id="quest_background_armyRanger">
+      <property name="name_key" value="quest_background_armyRanger"/>
+      <property name="subtitle_key" value="background_armyRanger_subtitle"/>
+      <property name="description_key" value="background_armyRanger_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false"/>
+      <property name="offer_key" value="background_armyRanger_offer"/>
+      <action type="TrackQuest"/>      
+      <reward type="Item" id="bookSniperControlledBreathing" value="1"/>
+      <reward type="Item" id="bookUrbanCombatLandMines" value="1"/>
+      <reward type="Item" id="gunHuntingRifle" value="2"/>
+      <reward type="Item" id="ammo762mmBulletBall" value="20"/>      
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+                      
+    <quest id="quest_background_navySeal">
+      <property name="name_key" value="quest_background_navySeal"/>
+      <property name="subtitle_key" value="background_navySeal_subtitle"/>
+      <property name="description_key" value="background_navySeal_description"/>
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false"/>
+      <property name="offer_key" value="background_navySeal_offer"/>
+      <action type="TrackQuest"/>      
+      <reward type="Item" id="bookAutoWeaponsDamage" value="1"/>
+      <reward type="Item" id="bookUrbanCombatAdrenalineRush" value="1"/>
+      <reward type="Item" id="gunAK47" value="1"/>
+      <reward type="Item" id="ammo762mmBulletBall" value="24"/>      
+      <reward type="SkillPoints" value="4"/>
+    </quest>
+  </append>
+  <!-- mods to starter quest -->
+
+  <remove xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@id='quest_BasicSurvival2']"/>
+
+  <append xpath="/quests/quest[@id='quest_BasicSurvival1']"><reward type="Quest" id="quest_whiteRiverCitizen1"/></append>
+
+
+</configs>
+
+
+
+  <!-- this is a template i guess -->
+
+  <!--  
+    <quest id="YOUR_QUEST_NAME">
+      <property name="group_name" value="QUEST_GROUP_NAME" />
+      <property name="name" value="QUEST_NAME_TO_DISPLAY" />
+      <property name="subtitle" value="SUBTITLE_TO_DISPLAY" />
+      <property name="description" value="QUEST_DESCRIPTION" />
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false" />
+      <action type="TrackQuest" />
+      <objective type="TYPE" id="EXACT_ITEM_NAME" value="AMOUNT" phase="PHASE_NUMBER" />
+      <reward type="ITEM_EXP_QUEST" value="AMOUNT" />
+    </quest> 
+  -->
+		
+
+
+	

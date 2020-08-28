@@ -1,0 +1,77 @@
+<configs>
+
+  <append xpath="/items">
+    <item name="Herbalist">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_herbalist_questNote"/>           
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_herbalist"/>
+      </property>
+    </item>
+
+    <item name="Bicycle Mechanic">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_bicycleMechanic_questNote"/>  
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_bicycleMechanic"/>
+      </property>
+    </item>
+    
+    <item name="Science/Engineering Student">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_scienceAndEngineering_questNote"/>
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_scienceAndEngineering"/>
+      </property>
+    </item>
+        
+    <item name="Prospector">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_prospector_questNote"/>
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_prospector"/>
+      </property>
+    </item>
+        
+    <item name="Textile Worker">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_textileWorker_questNote"/>
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_textileWorker"/>
+      </property>
+    </item>
+        
+    <item name="Law Enforcement">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_lawEnforcement_questNote"/>
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_lawEnforcement"/>
+      </property>
+    </item>
+        
+    <item name="Paramedic">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_paramedic_questNote"/>
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_paramedic"/>
+      </property>
+    </item>
+            
+    <item name="Army Ranger">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_armyRanger_questNote"/>
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_armyRanger"/>
+      </property>
+    </item> 
+            
+    <item name="Navy Seal">
+      <property name="Extends" value="challengeQuestMaster"/>
+      <property name="DescriptionKey" value="background_navySeal_questNote"/>
+      <property class="Action0">        
+        <property name="QuestGiven" value="quest_background_navySeal"/>
+      </property>
+    </item>         
+  </append>
+
+</configs>

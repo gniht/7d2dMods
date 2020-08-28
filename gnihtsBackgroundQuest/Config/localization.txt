@@ -1,0 +1,54 @@
+Key,English
+quest_background_herbalist,"Background - Herbalist"
+background_herbalist_description,"Before the apocalypse, you studied natural healing through the use of medicinal herbs."
+background_herbalist_questNote,"Before the apocalypse, you studied natural healing through the use of medicinal herbs. \n\n*Goldenrod Tea Recipe\n*Herbal Antibiotics Recipe\n*Herbal Antibiotics (2)"
+background_herbalist_subtitle,Herbalist
+background_herbalist_offer,"Get your herbalist items.\n\n*Goldenrod Tea Recipe\n*Herbal Antibiotics Recipe\n*Herbal Antibiotics (2)"
+
+quest_background_bicycleMechanic,"Background - Bicycle Mechanic"
+background_bicycleMechanic_description,"Before the apocalypse, you used to work in a small bike shop.  You still remember a thing or two about fixing them, maybe you can build a bike if you can find the parts."
+background_bicycleMechanic_questNote,"Before the apocalypse, you used to work in a small bike shop.  You still remember a thing or two about fixing them, maybe you can build a bike if you can find the parts.\n\n*Bicycle Handlebars Schematic\n*Bicycle Chassis Schematic\n*Wrench\n*Repair Kit (1)"
+background_bicycleMechanic_subtitle,Bicycle Mechanic
+background_bicycleMechanic_offer,"Get the items you brought from the bike shop.\n\n*Bicycle Handlebars Schematic\n*Bicycle Chassis Schematic\n*Wrench\n*Repair Kit (1)"
+
+quest_background_scienceAndEngineering,"Background - Science or Engineering"
+background_scienceAndEngineering_description,"Before the apocalypse, you studied at the university in a science or engineering discipline.  Some zombies ate your textbooks but at least you still have your nerdy glasses."
+background_scienceAndEngineering_questNote,"Before the apocalypse, you studied at the university in a science or engineering discipline.  Some zombies ate your textbooks but at least you still have your nerdy glasses.\n\n*Nerdy Glasses\n*Beaker\n*Repair Kit (2)"
+background_scienceAndEngineering_subtitle,Science and Engineering
+background_scienceAndEngineering_offer,"Get whatever the zombies didn't eat.\n\n*Nerdy Glasses\n*Beaker\n*Repair Kit (2)"
+
+quest_background_prospector,"Background - Prospector"
+background_prospector_description,"Before the apocalypse, you literally carved a life for yourself out the rocks with a pickaxe."
+background_prospector_questNote,"Before the apocalypse, you literally carved a life for yourself out the rocks with a pickaxe.\n\n*Art of Mining Vol 3\n*Art of Mining Vol 6\n*Iron Pickaxe"
+background_prospector_subtitle,Prospector
+background_prospector_offer,"You used your last stick of dynamite to bury those zombies in the mine and escape, so now all you have left about is your wits and this pickaxe.\n\n*Art of Mining Vol 3\n*Art of Mining Vol 6\n*Iron Pickaxe"
+
+quest_background_textileWorker,"Background - Textile Worker"
+background_textileWorker_description,"Before the apocalypse, you worked in a textile mill."
+background_textileWorker_questNote,"Before the apocalypse, you worked in a textile mill.\n\n*Needle and Thread Vol 7\n*Wasteland Treasures Vol 6\n*Duct tape (2)\n*Sewing Kit (4)"
+background_textileWorker_subtitle,Textile Worker
+background_textileWorker_offer,"Looking around, you don't have much to work with aside from these sewing kits... but you think you could weave some cloth out of plant fibers if need be.\n\n*Needle and Thread Vol 7\n*Wasteland Treasures Vol 6\n*Duct Tape (2)\n*Sewing Kit (4)"
+
+quest_background_lawEnforcement,"Background - Law Enforcement"
+background_lawEnforcement_description,"Before the apocalypse, you worked in law enforcement."
+background_lawEnforcement_questNote,"Before the apocalypse, you worked in law enforcement.\n\n*Pistol Pete Vol 3\n*Pistol Pete Vol 7\n*9mm ammo (30)"
+background_lawEnforcement_subtitle,Law Enforcement
+background_lawEnforcement_offer,"You don't have much ammo left, but at least you still have your service weapon and your training.\n\n*Pistol Pete Vol 3\n*Pistol Pete Vol 7\n*9mm ammo (30)"
+
+quest_background_paramedic,"Background - Paramedic"
+background_paramedic_description,"Before the apocalypse, you worked as a paramedic."
+background_paramedic_questNote,"Before the apocalypse, you worked as a paramedic.\n\n*Lucky Looter Vol 7\n*First Aid Bandage Schematic\n*First Aid Bandage (2)"
+background_paramedic_subtitle,Paramedic
+background_paramedic_offer,"When the hospital was overrun you had to leave in a hurry and most of the supplies you brought have already been used, but your paramedic training should still be useful.\n\n*Lucky Looter Vol 7\n*First Aid Bandage Schematic\n*First Aid Bandage (2)"
+
+quest_background_armyRanger,"Background - Army Ranger"
+background_armyRanger_description,"As an army ranger you learned how to handle a rifle and avoid land mines."
+background_armyRanger_questNote,"As an army ranger you learned how to handle a rifle and avoid land mines.\n\n*Sniper Vol 4\n*Urban Combat Vol 5\n*Hunting Rifle\n*7.62mm ammo (20)"
+background_armyRanger_subtitle,Army Ranger
+background_armyRanger_offer,"You're low on ammo, but at least you have your training.\n\n*Sniper Vol 4\n*Urban Combat Vol 5\n*Hunting Rifle\n*7.62mm ammo (20)"
+
+quest_background_navySeal,"Background - Navy Seal"
+background_navySeal_description,"After you came home from the war, people acted like they didn't want you around, but in the zombie apocalypse it turns out your combat training is invaluable."
+background_navySeal_questNote,"After you came home from the war, people acted like they didn't want you around, but in the zombie apocalypse it turns out your combat training is invaluable.\n\n*The Automatic Weapon Handbook Vol 1\n*Urban Combat Vol 6\n*AK-47\n*7.62mm ammo (24)"
+background_navySeal_subtitle,Navy Seal
+background_navySeal_offer,"Luckily you kept a pre-ban AK under the bed in your appartment... now if only you had stockpiled more ammo...\n\n*The Automatic Weapon Handbook Vol 1\n*Urban Combat Vol 6\n*AK-47\n*7.62mm ammo (24)"

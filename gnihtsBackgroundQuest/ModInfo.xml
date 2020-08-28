@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsBackgroundQuest"/>
+
+    <Description value="This modlet introduces 'backgrounds' to represent who the survivor was before the apocalypse.  The benefits are meant to be relatively small, yet meaningful.  This quest also gives the 4 skill points that would normally come from the starter quest, because starting with these points at the very beginning helps represent them being from character background. I assume players are familiar enough with the game they don't need the tutorial, and only prompt a player to make and place a bedroll."/>
+
+    <Author value="gniht"/>
+
+    <Version value="2.0.0"/>
+
+  </ModInfo>
+
+</xml>
