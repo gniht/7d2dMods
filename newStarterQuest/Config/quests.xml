@@ -1,0 +1,41 @@
+<configs>
+ 
+  <remove xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@id='quest_BasicSurvival2']"/>
+
+  <remove xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='FetchKeep']"/>
+
+  <remove xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='Craft']"/>
+
+  <append xpath="/quests/quest[@id='quest_BasicSurvival1']">
+    <reward type="Quest" id="quest_whiteRiverCitizen1"/>
+    <reward type="SkillPoints" value="4"/>
+    <reward type="Item" id="drinkJarBoiledWater" value="1"/>
+    <reward type="Item" id="foodCanChili" value="1"/>
+    <reward type="Item" id="medicalFirstAidBandage" value="1"/>        
+  </append>
+
+</configs>
+
+
+
+  <!-- this is a template i guess -->
+
+  <!--  
+    <quest id="YOUR_QUEST_NAME">
+      <property name="group_name" value="QUEST_GROUP_NAME" />
+      <property name="name" value="QUEST_NAME_TO_DISPLAY" />
+      <property name="subtitle" value="SUBTITLE_TO_DISPLAY" />
+      <property name="description" value="QUEST_DESCRIPTION" />
+      <property name="icon" value="ui_game_symbol_map_bed" />
+      
+      <property name="category_key" value="quest"/>
+      <property name="shareable" value="false" />
+      <action type="TrackQuest" />
+      <objective type="TYPE" id="EXACT_ITEM_NAME" value="AMOUNT" phase="PHASE_NUMBER" />
+      <reward type="ITEM_EXP_QUEST" value="AMOUNT" />
+    </quest> 
+  -->
+		
+
+
+	

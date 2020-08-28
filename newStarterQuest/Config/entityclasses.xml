@@ -1,0 +1,9 @@
+<configs>
+
+  <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']" name="value" >modMeleeClubBurningShaft,drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,bedroll</setattribute>
+
+  <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']" name="value">modMeleeClubBurningShaft,drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,bedroll</setattribute>
+
+  <setattribute xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']" name="value">modMeleeClubBurningShaft,drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,bedroll</setattribute>  
+   
+</configs>

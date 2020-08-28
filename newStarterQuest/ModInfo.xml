@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="newStarterQuest"/>
+
+    <Description value="newStarterQuest changes start: players will begin with 2 cans of food, 2 water, 2 bandages, bedroll, and burning shaft mod instead of a torch.  tutorial quest auto-completes after placing bedroll, giving them their 4 skill points and directing the player to goto trader."/>
+
+    <Author value="gniht"/>
+
+    <Version value="1.2.0"/>
+
+  </ModInfo>
+
+</xml>
