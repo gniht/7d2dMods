@@ -1,5 +1,52 @@
 <configs>
+  <append xpath="/blocks">
 
-  <append xpath="/blocks/block[@name='glassBulletproofBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,glassBulletproofRampSheet</append>
-  
+    <block name="glassBusinessWedgeIncline">
+      <property name="Extends" value="glassBusinessSheet"/>
+      <property name="Shape" value="New"/>
+      <property name="Model" value="wedge60_incline"/>
+      <property name="SortOrder2" value="0440"/>
+      <property name="CustomIcon" value="woodFrameWedgeIncline"/>
+    </block>
+    <block name="glassBusinessWedge">
+      <property name="Extends" value="glassBusinessSheet"/>
+      <property name="Shape" value="New"/>
+      <property name="Model" value="wedge60"/>
+      <property name="SortOrder2" value="0290"/>
+      <property name="CustomIcon" value="woodFrameWedge"/>
+    </block>
+    <block name="glassBusinessWedgeTip">
+      <property name="Extends" value="glassBusinessSheet"/>
+      <property name="Shape" value="New"/>
+      <property name="Model" value="wedge60_tip"/>
+      <property name="SortOrder2" value="0280"/>
+      <property name="CustomIcon" value="rConcreteWedgeTip"/>
+    </block>
+    <block name="glassBulletproofWedgeIncline">
+      <property name="Extends" value="glassBulletproofMaster"/>
+      <property name="Shape" value="New"/>
+      <property name="Model" value="wedge60_incline"/>
+      <property name="SortOrder2" value="0440"/>
+      <property name="CustomIcon" value="woodFrameWedgeIncline"/>
+    </block>
+    <block name="glassBulletproofWedge">
+      <property name="Extends" value="glassBulletproofMaster"/>
+      <property name="Shape" value="New"/>
+      <property name="Model" value="wedge60"/>
+      <property name="SortOrder2" value="0290"/>
+      <property name="CustomIcon" value="woodFrameWedge"/>
+    </block>
+    <block name="glassBulletproofWedgeTip">
+      <property name="Extends" value="glassBulletproofMaster"/>
+      <property name="Shape" value="New"/>
+      <property name="Model" value="wedge60_tip"/>
+      <property name="SortOrder2" value="0280"/>
+      <property name="CustomIcon" value="rConcreteWedgeTip"/>
+    </block>
+
+  </append>
+
+  <append xpath="/blocks/block[@name='glassBulletproofBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,glassBulletproofRampSheet,glassBulletproofWedgeIncline,glassBulletproofWedge,glassBulletproofWedgeTip</append>
+  <append xpath="/blocks/block[@name='glassBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,glassBusinessWedgeIncline,glassBusinessWedge,glassBusinessWedgeTip</append>
+
 </configs>
