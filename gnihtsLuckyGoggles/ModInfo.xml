@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xml>
+
+
+  <ModInfo>
+
+    <Name value="gnihtsLuckyGoggles"/>
+
+    <Description value="This mod removes random values for Lucky Goggles and sets the loot bonus for lucky goggles to max (5). As this was an under-utilized item, I wanted to make it slightly more appealing without going beyond the original parameters TFP set out." />
+
+    <Author value="gniht"/>
+
+    <Version value="2.0.0"/>
+
+  </ModInfo>
+
+</xml>

@@ -1,0 +1,3 @@
+<configs>
+  <setattribute xpath="/items/item[@name='apparelAviatorGoggles']/effect_group/passive_effect[@name='LootGamestage']" name="value">5</setattribute>
+</configs>
